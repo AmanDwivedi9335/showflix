@@ -22,26 +22,24 @@ const Footer = () => {
                     <li className="menuItem">FAQ</li>
                 </ul>
                 <div className="infoText">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur.
+                Welcome to Showflix, your ultimate destination for movies, TV shows, anime, and beyond. Dive into our extensive library, explore ratings, cast information, and plot summaries, and stay in the loop with the latest trending content. Experience seamless entertainment and find your next favorite watch with ease. <br /><br />
+                <span className="credit">
+                ❤️ by Aman Dwivedi
+                </span>
                 </div>
                 <div className="socialIcons">
-                    <span className="icon">
-                        <FaFacebookF />
-                    </span>
-                    <span className="icon">
-                        <FaInstagram />
-                    </span>
-                    <span className="icon">
-                        <FaTwitter />
-                    </span>
-                    <span className="icon">
+                <a href="https://showflix-vert.vercel.app/" target="_blank" rel="noopener noreferrer" className="icon">
+                        <FaChrome />
+                    </a>
+                    <a href="https://www.linkedin.com/in/i-am-aman-dwivedi/" target="_blank" rel="noopener noreferrer" className="icon">
                         <FaLinkedin />
-                    </span>
+                    </a>
+                    <a href="https://github.com/AmanDwivedi9335" target="_blank" rel="noopener noreferrer" className="icon">
+                        <FaGithub />
+                    </a>
+                    <a href="https://showflix-vert.vercel.app/" target="_blank" rel="noopener noreferrer" className="icon">
+                        <FaYoutube />
+                    </a>
                 </div>
             </ContentWrapper>
         </footer>
