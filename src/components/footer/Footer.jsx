@@ -1,8 +1,8 @@
 import React from "react";
 import {
-    FaFacebookF,
-    FaInstagram,
-    FaTwitter,
+    FaChrome,
+    FaGithub,
+    FaYoutube,
     FaLinkedin,
 } from "react-icons/fa";
 
@@ -28,7 +28,7 @@ const Footer = () => {
                 </span>
                 </div>
                 <div className="socialIcons">
-                <a href="https://showflix-vert.vercel.app/" target="_blank" rel="noopener noreferrer" className="icon">
+                    <a href="https://showflix-vert.vercel.app/" target="_blank" rel="noopener noreferrer" className="icon">
                         <FaChrome />
                     </a>
                     <a href="https://www.linkedin.com/in/i-am-aman-dwivedi/" target="_blank" rel="noopener noreferrer" className="icon">
